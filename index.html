@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CV</title>
   <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-  <div id="mainbody-hoverable" class="mainbody-hoverable">
+  <div id="mainbody" class="mainbody">
     <div class="blue">
-       
       <img class="main-image" src="./personA.png" alt="Profile Picture">
       <section>
         <h3 class="CONTACT">CONTACT</h3>
-        <hr/>
-        <ul>
+        <hr />
+        <ul class="contact-list">
           <li>+123-456-7890</li>
           <li>hello@reallygreatsite.com</li>
           <li>123 Anywhere St., Any City</li>
@@ -31,22 +32,24 @@
         </ul>
       </section>
       <section>
-        <h3 class="SKILLS">SKILLS</h3>
+        <h3 class="SKILLSTITLE">SKILLS</h3>
         <hr />
-        <ul>
-          <li>Project Management</li>
-          <li>Public Relations</li>
-          <li>Teamwork</li>
-          <li>Time Management</li>
-          <li>Leadership</li>
-          <li>Effective Communication</li>
-          <li>Critical Thinking</li>
-        </ul>
+        <div>
+          <ul class="skills-list">
+            <li>Project Management</li>
+            <li>Public Relations</li>
+            <li>Teamwork</li>
+            <li>Time Management</li>
+            <li>Leadership</li>
+            <li>Effective Communication</li>
+            <li>Critical Thinking</li>
+          </ul>
+        </div>
       </section>
       <section>
         <h3 class="LANGUAGES">LANGUAGES</h3>
         <hr />
-        <ul>
+        <ul class="LANGUAGES-list">
           <li>English (Fluent)</li>
           <li>French (Fluent)</li>
           <li>German (Basic)</li>
@@ -54,7 +57,83 @@
         </ul>
       </section>
     </div>
+
+    <div class="white">
+      <div class="CV-section">
+        <h1 class="CV-NAME">RICHARD SANCHEZ</h1>
+        <h3><span class="marketing"> MARKETING MANAGER</span></h3>
+      </div>
+      <div>
+        <h2 class="profile-title">PROFILE</h2>
+        <hr>
+        <p class="profile-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque quos voluptates
+          blanditiis, quia, suscipit accusamus, eveniet sed pariatur quisquam sapiente ducimus possimus vitae asperiores
+          necessitatibus! Distinctio incidunt ullam libero cumque.</p>
+      </div>
+      <div class="Experience-section">
+        <h2 class="experience-title">WORK EXPERIENCE</h2>
+        <hr>
+        <ul class="experience-list">
+          <li>
+            <h3>Borcello Studio <br>
+              <span>Marketing Manager</span>
+            </h3>
+            <ul class="firstExperience-list">
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. 1</li>
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. 2</li>
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. 3</li>
+            </ul>
+          </li>
+          <li>
+            <h3>Borcello Studio <br>
+              <span>Marketing Manager</span>
+            </h3>
+            <ul class="secondExperience-list">
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. 1</li>
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. 2</li>
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. 3</li>
+            </ul>
+          </li>
+          <li>
+            <h3>Borcello Studio <br>
+              <span>Marketing Manager</span>
+            </h3>
+            <ul class="thirdExperience-list">
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. 1</li>
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. 2</li>
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. 3</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="refrences-section">
+        <div class="firstRef">
+          <h2>REFERENCES</h2>
+          <hr>
+          <ul class="firstRefData">
+            <li>
+              <h3 class="firstRefName">Estelle Darcy</h3>
+            </li>
+            <li>Wardiere Inc. / CTO</li>
+            <li>Phone: 123-456-7890</li>
+            <li>Email: hello@reallygreatsite.com</li>
+          </ul>
+
+          <div class="secondRef">
+            <ul class="secondRefData">
+              <li>
+                <h3 class="secondRefName">Harper Richard</h3>
+              </li>
+              <li>Wardiere Inc. / CTO</li>
+              <li>Phone: 123-456-7890</li>
+              <li>Email: hello@reallygreatsite.com</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script defer src="./main.js"></script>
   </div>
-  <script defer src="./main.js"></script>
 </body>
+
 </html>
